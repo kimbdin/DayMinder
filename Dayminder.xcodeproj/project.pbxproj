@@ -13,8 +13,8 @@
 		97D1BFB126CEEE1300EC2F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97D1BFAF26CEEE1300EC2F9D /* Main.storyboard */; };
 		97D1BFB326CEEE1700EC2F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D1BFB226CEEE1700EC2F9D /* Assets.xcassets */; };
 		97D1BFB626CEEE1700EC2F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97D1BFB426CEEE1700EC2F9D /* LaunchScreen.storyboard */; };
-		97D1BFC126CEEE1700EC2F9D /* CaturdayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D1BFC026CEEE1700EC2F9D /* CaturdayTests.swift */; };
-		97D1BFCC26CEEE1700EC2F9D /* CaturdayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D1BFCB26CEEE1700EC2F9D /* CaturdayUITests.swift */; };
+		97D1BFC126CEEE1700EC2F9D /* DayminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D1BFC026CEEE1700EC2F9D /* DayminderTests.swift */; };
+		97D1BFCC26CEEE1700EC2F9D /* DayminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D1BFCB26CEEE1700EC2F9D /* DayminderUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		97D1BFA626CEEE1300EC2F9D /* Caturday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caturday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D1BFA626CEEE1300EC2F9D /* Dayminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dayminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D1BFA926CEEE1300EC2F9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97D1BFAB26CEEE1300EC2F9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		97D1BFAD26CEEE1300EC2F9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,11 +43,11 @@
 		97D1BFB226CEEE1700EC2F9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97D1BFB526CEEE1700EC2F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97D1BFB726CEEE1700EC2F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97D1BFBC26CEEE1700EC2F9D /* CaturdayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaturdayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		97D1BFC026CEEE1700EC2F9D /* CaturdayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaturdayTests.swift; sourceTree = "<group>"; };
+		97D1BFBC26CEEE1700EC2F9D /* DayminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D1BFC026CEEE1700EC2F9D /* DayminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayminderTests.swift; sourceTree = "<group>"; };
 		97D1BFC226CEEE1700EC2F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97D1BFC726CEEE1700EC2F9D /* CaturdayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaturdayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		97D1BFCB26CEEE1700EC2F9D /* CaturdayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaturdayUITests.swift; sourceTree = "<group>"; };
+		97D1BFC726CEEE1700EC2F9D /* DayminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D1BFCB26CEEE1700EC2F9D /* DayminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayminderUITests.swift; sourceTree = "<group>"; };
 		97D1BFCD26CEEE1700EC2F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,9 +79,9 @@
 		97D1BF9D26CEEE1300EC2F9D = {
 			isa = PBXGroup;
 			children = (
-				97D1BFA826CEEE1300EC2F9D /* Caturday */,
-				97D1BFBF26CEEE1700EC2F9D /* CaturdayTests */,
-				97D1BFCA26CEEE1700EC2F9D /* CaturdayUITests */,
+				97D1BFA826CEEE1300EC2F9D /* Dayminder */,
+				97D1BFBF26CEEE1700EC2F9D /* DayminderTests */,
+				97D1BFCA26CEEE1700EC2F9D /* DayminderUITests */,
 				97D1BFA726CEEE1300EC2F9D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		97D1BFA726CEEE1300EC2F9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97D1BFA626CEEE1300EC2F9D /* Caturday.app */,
-				97D1BFBC26CEEE1700EC2F9D /* CaturdayTests.xctest */,
-				97D1BFC726CEEE1700EC2F9D /* CaturdayUITests.xctest */,
+				97D1BFA626CEEE1300EC2F9D /* Dayminder.app */,
+				97D1BFBC26CEEE1700EC2F9D /* DayminderTests.xctest */,
+				97D1BFC726CEEE1700EC2F9D /* DayminderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		97D1BFA826CEEE1300EC2F9D /* Caturday */ = {
+		97D1BFA826CEEE1300EC2F9D /* Dayminder */ = {
 			isa = PBXGroup;
 			children = (
 				97D1BFA926CEEE1300EC2F9D /* AppDelegate.swift */,
@@ -107,33 +107,33 @@
 				97D1BFB426CEEE1700EC2F9D /* LaunchScreen.storyboard */,
 				97D1BFB726CEEE1700EC2F9D /* Info.plist */,
 			);
-			path = Caturday;
+			path = Dayminder;
 			sourceTree = "<group>";
 		};
-		97D1BFBF26CEEE1700EC2F9D /* CaturdayTests */ = {
+		97D1BFBF26CEEE1700EC2F9D /* DayminderTests */ = {
 			isa = PBXGroup;
 			children = (
-				97D1BFC026CEEE1700EC2F9D /* CaturdayTests.swift */,
+				97D1BFC026CEEE1700EC2F9D /* DayminderTests.swift */,
 				97D1BFC226CEEE1700EC2F9D /* Info.plist */,
 			);
-			path = CaturdayTests;
+			path = DayminderTests;
 			sourceTree = "<group>";
 		};
-		97D1BFCA26CEEE1700EC2F9D /* CaturdayUITests */ = {
+		97D1BFCA26CEEE1700EC2F9D /* DayminderUITests */ = {
 			isa = PBXGroup;
 			children = (
-				97D1BFCB26CEEE1700EC2F9D /* CaturdayUITests.swift */,
+				97D1BFCB26CEEE1700EC2F9D /* DayminderUITests.swift */,
 				97D1BFCD26CEEE1700EC2F9D /* Info.plist */,
 			);
-			path = CaturdayUITests;
+			path = DayminderUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		97D1BFA526CEEE1300EC2F9D /* Caturday */ = {
+		97D1BFA526CEEE1300EC2F9D /* Dayminder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97D1BFD026CEEE1800EC2F9D /* Build configuration list for PBXNativeTarget "Caturday" */;
+			buildConfigurationList = 97D1BFD026CEEE1800EC2F9D /* Build configuration list for PBXNativeTarget "Dayminder" */;
 			buildPhases = (
 				97D1BFA226CEEE1300EC2F9D /* Sources */,
 				97D1BFA326CEEE1300EC2F9D /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = Caturday;
+			name = Dayminder;
 			productName = Caturday;
-			productReference = 97D1BFA626CEEE1300EC2F9D /* Caturday.app */;
+			productReference = 97D1BFA626CEEE1300EC2F9D /* Dayminder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		97D1BFBB26CEEE1700EC2F9D /* CaturdayTests */ = {
+		97D1BFBB26CEEE1700EC2F9D /* DayminderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97D1BFD326CEEE1800EC2F9D /* Build configuration list for PBXNativeTarget "CaturdayTests" */;
+			buildConfigurationList = 97D1BFD326CEEE1800EC2F9D /* Build configuration list for PBXNativeTarget "DayminderTests" */;
 			buildPhases = (
 				97D1BFB826CEEE1700EC2F9D /* Sources */,
 				97D1BFB926CEEE1700EC2F9D /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				97D1BFBE26CEEE1700EC2F9D /* PBXTargetDependency */,
 			);
-			name = CaturdayTests;
+			name = DayminderTests;
 			productName = CaturdayTests;
-			productReference = 97D1BFBC26CEEE1700EC2F9D /* CaturdayTests.xctest */;
+			productReference = 97D1BFBC26CEEE1700EC2F9D /* DayminderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		97D1BFC626CEEE1700EC2F9D /* CaturdayUITests */ = {
+		97D1BFC626CEEE1700EC2F9D /* DayminderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97D1BFD626CEEE1800EC2F9D /* Build configuration list for PBXNativeTarget "CaturdayUITests" */;
+			buildConfigurationList = 97D1BFD626CEEE1800EC2F9D /* Build configuration list for PBXNativeTarget "DayminderUITests" */;
 			buildPhases = (
 				97D1BFC326CEEE1700EC2F9D /* Sources */,
 				97D1BFC426CEEE1700EC2F9D /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				97D1BFC926CEEE1700EC2F9D /* PBXTargetDependency */,
 			);
-			name = CaturdayUITests;
+			name = DayminderUITests;
 			productName = CaturdayUITests;
-			productReference = 97D1BFC726CEEE1700EC2F9D /* CaturdayUITests.xctest */;
+			productReference = 97D1BFC726CEEE1700EC2F9D /* DayminderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 97D1BFA126CEEE1300EC2F9D /* Build configuration list for PBXProject "Caturday" */;
+			buildConfigurationList = 97D1BFA126CEEE1300EC2F9D /* Build configuration list for PBXProject "Dayminder" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97D1BFA526CEEE1300EC2F9D /* Caturday */,
-				97D1BFBB26CEEE1700EC2F9D /* CaturdayTests */,
-				97D1BFC626CEEE1700EC2F9D /* CaturdayUITests */,
+				97D1BFA526CEEE1300EC2F9D /* Dayminder */,
+				97D1BFBB26CEEE1700EC2F9D /* DayminderTests */,
+				97D1BFC626CEEE1700EC2F9D /* DayminderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97D1BFC126CEEE1700EC2F9D /* CaturdayTests.swift in Sources */,
+				97D1BFC126CEEE1700EC2F9D /* DayminderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97D1BFCC26CEEE1700EC2F9D /* CaturdayUITests.swift in Sources */,
+				97D1BFCC26CEEE1700EC2F9D /* DayminderUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		97D1BFBE26CEEE1700EC2F9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 97D1BFA526CEEE1300EC2F9D /* Caturday */;
+			target = 97D1BFA526CEEE1300EC2F9D /* Dayminder */;
 			targetProxy = 97D1BFBD26CEEE1700EC2F9D /* PBXContainerItemProxy */;
 		};
 		97D1BFC926CEEE1700EC2F9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 97D1BFA526CEEE1300EC2F9D /* Caturday */;
+			target = 97D1BFA526CEEE1300EC2F9D /* Dayminder */;
 			targetProxy = 97D1BFC826CEEE1700EC2F9D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -438,12 +438,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XKHK296W3X;
-				INFOPLIST_FILE = Caturday/Info.plist;
+				INFOPLIST_FILE = Dayminder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DayMinder.Caturday;
+				PRODUCT_BUNDLE_IDENTIFIER = DayMinder.Dayminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,12 +457,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XKHK296W3X;
-				INFOPLIST_FILE = Caturday/Info.plist;
+				INFOPLIST_FILE = Dayminder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DayMinder.Caturday;
+				PRODUCT_BUNDLE_IDENTIFIER = DayMinder.Dayminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -476,18 +476,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XKHK296W3X;
-				INFOPLIST_FILE = CaturdayTests/Info.plist;
+				INFOPLIST_FILE = DayminderTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DayMinder.CaturdayTests;
+				PRODUCT_BUNDLE_IDENTIFIER = DayMinder.DayminderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caturday.app/Caturday";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dayminder.app/Dayminder";
 			};
 			name = Debug;
 		};
@@ -498,18 +498,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XKHK296W3X;
-				INFOPLIST_FILE = CaturdayTests/Info.plist;
+				INFOPLIST_FILE = DayminderTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DayMinder.CaturdayTests;
+				PRODUCT_BUNDLE_IDENTIFIER = DayMinder.DayminderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caturday.app/Caturday";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dayminder.app/Dayminder";
 			};
 			name = Release;
 		};
@@ -519,17 +519,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XKHK296W3X;
-				INFOPLIST_FILE = CaturdayUITests/Info.plist;
+				INFOPLIST_FILE = DayminderUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DayMinder.CaturdayUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = DayMinder.DayminderUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Caturday;
+				TEST_TARGET_NAME = Dayminder;
 			};
 			name = Debug;
 		};
@@ -539,24 +539,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XKHK296W3X;
-				INFOPLIST_FILE = CaturdayUITests/Info.plist;
+				INFOPLIST_FILE = DayminderUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DayMinder.CaturdayUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = DayMinder.DayminderUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Caturday;
+				TEST_TARGET_NAME = Dayminder;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		97D1BFA126CEEE1300EC2F9D /* Build configuration list for PBXProject "Caturday" */ = {
+		97D1BFA126CEEE1300EC2F9D /* Build configuration list for PBXProject "Dayminder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97D1BFCE26CEEE1800EC2F9D /* Debug */,
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97D1BFD026CEEE1800EC2F9D /* Build configuration list for PBXNativeTarget "Caturday" */ = {
+		97D1BFD026CEEE1800EC2F9D /* Build configuration list for PBXNativeTarget "Dayminder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97D1BFD126CEEE1800EC2F9D /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97D1BFD326CEEE1800EC2F9D /* Build configuration list for PBXNativeTarget "CaturdayTests" */ = {
+		97D1BFD326CEEE1800EC2F9D /* Build configuration list for PBXNativeTarget "DayminderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97D1BFD426CEEE1800EC2F9D /* Debug */,
@@ -583,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97D1BFD626CEEE1800EC2F9D /* Build configuration list for PBXNativeTarget "CaturdayUITests" */ = {
+		97D1BFD626CEEE1800EC2F9D /* Build configuration list for PBXNativeTarget "DayminderUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97D1BFD726CEEE1800EC2F9D /* Debug */,
