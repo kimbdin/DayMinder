@@ -1,12 +1,12 @@
 //
-//  CaturdayTests.swift
-//  CaturdayTests
+//  DayminderTests.swift
+//  DayminderTests
 //
 //  Created by Kim Bedin on 19/8/21.
 //
 
 import XCTest
-@testable import Caturday
+@testable import Dayminder
 
 class CaturdayTests: XCTestCase {
 

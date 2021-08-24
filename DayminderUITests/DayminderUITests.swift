@@ -1,13 +1,13 @@
 //
-//  CaturdayUITests.swift
-//  CaturdayUITests
+//  DayminderUITests.swift
+//  DayminderUITests
 //
 //  Created by Kim Bedin on 19/8/21.
 //
 
 import XCTest
 
-class CaturdayUITests: XCTestCase {
+class DayminderUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

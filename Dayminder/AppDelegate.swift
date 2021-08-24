@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Caturday
+//  DayMinder
 //
 //  Created by Kim Bedin on 19/8/21.
 //
